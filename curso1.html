@@ -1,0 +1,93 @@
+<!--Si queremos aue salga código por defecto usamos ! mas la tecla tab-->
+
+<!DOCTYPE html><!--Identificador de que estamos usando html5-->
+<html>
+<head>
+    <title>primera web</title>
+    <style>table,th,td{
+             border: 1px solid black
+        }
+    </style>
+</head>
+<body>
+    <table style="width: 500px;">
+        <thead>
+            <tr>
+                <th>precio</th>
+                <th>producto</th>
+              
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>10000</td>
+                <td>piña</td>
+            </tr>
+            <tr>
+                <td>1999000</td>
+                <td>PAPAPA</td>
+            </tr>
+            <tr>
+                <td>19990000000000010</td>
+                <td>PAPAPA de boyaca y beuna</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <td>Total= 877$</td>
+            <td></td>
+        </tfoot>
+    </table>
+
+    <ol><!--Lista ordenada-->
+        <li value="50">Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+        <li>
+            <ol>
+                <li style="list-style-type:lower-alpha;">subElemento 1</li>
+                <li style="list-style-type:lower-alpha;">subElemento 2</li>
+                <li style="list-style-type:lower-roman;">sudElemento 3</li>
+            </ol>
+        </li>
+    </ol>
+    <ul><!--Lista no ordenada-->
+        <li>Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+    </ul>
+
+
+    <form action="/formulario" method="post">
+        <label for="nombre">Nombre</label>
+        <input value="Angel" type="text" id="nombre" name="nombre" placeholder="Ej: Manuel Tarazona"/>
+        <br>
+        <label for="apellido">Apellido</label>
+        <input value="Valle" type="text" id="apellido" name="apellido" placeholder="Tarazonas"/>
+        <br>
+        <label for="comentario">Comentarios adicionales</label>
+        <br>
+        <textarea rows="10" cols="30" id="comentario" placeholder="Dijite un cpmetario" name="comentario">Valo por defecto</textarea>
+        <br>
+        <button type="button"> tipo boton</button>
+        <button type="reset"> resetear</button>
+        <button type="submit">enviar</button>
+    </form>
+    <h1>Mi primer heading</h1>
+    <h2>Mi segundo heading</h2>
+    <h3>Mi tercer heading</h3>
+    <h4>Mi cuarto heading</h4>
+    <h5>Mi quinto heading</h5>
+    <h6>Mi sexto heading<br><br></h6>
+    <p>Hola soy pepito y estoy probando el parrafo de nuevo<br></p>
+    <p>probando</p>
+    <hr><!--Con esta etiqueta la usamos para realizar una separación con una linea-->
+    <h2>Probando etiquetas</h2>
+    <p>se supone que debe haber una linea divisoria este es un <span style="color:blue">texto largo</span>  <br>para probar el dato la informacion y ya
+    </p>
+    <a target="_blank" href="https://www.google.com">Ir a google<br><br></a>
+    <img src="https://www.dogalize.com/wp-content/uploads/2017/06/La-sverminazione-e-la-pulizia-del-cucciolo-del-cane-2-800x400-800x400.jpg" width="400"/>
+    <br><br>
+    <img src="Imagen/ManuelT02.jpg"height="200"/>
+    
+</body>
+</html>
